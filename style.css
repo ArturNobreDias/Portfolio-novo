@@ -540,6 +540,10 @@ footer .line-footer a:hover {
 
   }
 
+  .flex {
+    flex-direction: column;
+  }
+
   /* Cabeçalho*/
   .menu,
   #btn-barra-menu {
