@@ -544,24 +544,59 @@ footer .line-footer a:hover {
     flex-direction: column;
   }
 
+  .topo-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  h2.titulo {
+    font-size: 30px;
+  }
+
+
+
   /* Cabeçalho*/
   .menu,
   #btn-barra-menu {
     display: none;
   }
 
-  .flex {
-    flex-direction: column;
-  }
-
-  .menu-mobile.open-menu {
-    width: 60%;
-  }
-
   .menu-mobile li a {
     margin: 0;
 
   }
+
+  /* Topo do site */
+
+  section.topo-site .flex {
+    gap: 69px;
+  }
+
+  section.topo-site {
+    padding: 20px 8%;
+  }
+
+  .topo-site .txt-topo h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .topo-site .img-topo img {
+    width: 100%;
+  }
+
+  /* Estilo Especialidades */
+
+  section.especialidades {
+    padding: 40px 8%;
+  }
+
+  section.especialidades .flex {
+    gap: 5px;
+  }
+
+  /* Estilo Sobre */
+
+
 
 
 
