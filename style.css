@@ -32,12 +32,14 @@ section {
 }
 
 h2.titulo {
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #f5f5f5;
   font-size: 36px;
   text-align: center;
 }
 
 h2.titulo span {
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #7ffff6;
 }
 
@@ -548,9 +550,7 @@ footer .line-footer a:hover {
     flex-direction: column-reverse;
   }
 
-  h2.titulo {
-    font-size: 30px;
-  }
+
 
 
 
@@ -594,6 +594,10 @@ footer .line-footer a:hover {
     gap: 5px;
   }
 
+  section.especialidades h2 {
+    font-size: 30px;
+  }
+
   /* Estilo Sobre */
 
   section.sobre {
@@ -606,6 +610,7 @@ footer .line-footer a:hover {
   }
 
   .sobre .txt-sobre h2 {
+    font-family: "Alegreya Sans SC", sans-serif;
     font-size: 30px;
     line-height: 30px;
 
@@ -626,11 +631,28 @@ footer .line-footer a:hover {
     gap: 60px;
   }
 
+  section.projetos h2 {
+    font-family: "Alegreya Sans SC", sans-serif;
+  }
+
   .img-port {
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
   }
+
+  /* Estilo Footer */
+
+  footer .flex {
+
+    gap: 20px;
+  }
+
+  footer .line-footer {
+    text-align: center;
+  }
+
+
 
 
 
