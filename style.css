@@ -641,6 +641,21 @@ footer .line-footer a:hover {
     margin: 0 auto;
   }
 
+  /* Estilo Formulario */
+
+  section.formulario h3 {
+    font-size: 18px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 15px;
+  }
+
+  form .btn-enviar input {
+    font-size: 18px;
+  }
+
   /* Estilo Footer */
 
   footer .flex {
