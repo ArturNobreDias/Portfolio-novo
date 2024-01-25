@@ -596,7 +596,41 @@ footer .line-footer a:hover {
 
   /* Estilo Sobre */
 
+  section.sobre {
+    padding: 40px 8%;
+  }
 
+  .img-sobre img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .sobre .txt-sobre h2 {
+    font-size: 30px;
+    line-height: 30px;
+
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  /* Estilo Projeto */
+
+  section .projetos {
+    padding: 80px 8%;
+
+  }
+
+  section.projetos .flex {
+    gap: 60px;
+  }
+
+  .img-port {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
 
 
 
